@@ -7,11 +7,7 @@
 html{
 	font-family: "Mukta", sans-serif;
 	font-size: 16px;
-	color: #fff;
-	background: rgb(43,5,64);
-	background: radial-gradient(circle, rgba(43,5,64,1) 60%, rgba(0,0,0,1) 95%);
 }
-
 
 main{
 	margin-top: 80px;
@@ -34,7 +30,6 @@ main{
 }
 
 .imgconteiner img{
-	border: 5px solid #fff;
 	width: 100%;
 }
 
@@ -60,4 +55,23 @@ div p{
 
 #yt{
 	margin-top:4px ;
+}
+
+.Fv{
+	color: #fff;
+	background: rgb(43,5,64);
+	background: radial-gradient(circle, rgba(43,5,64,1) 60%, rgba(0,0,0,1) 95%);
+}
+
+.Fb{
+	background: #fff;
+	color: #3D3D3D;
+}
+
+.shadow{
+	box-shadow: 8px 11px 18px -4px rgba(0,0,0,0.59);
+}
+
+.border{
+	border: 5px solid #fff;
 }
