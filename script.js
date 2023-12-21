@@ -14,3 +14,21 @@ if(random == 0){
 	spotify.src="img/spotify2.png";
 	apple.src="img/apple2.png";
 }
+
+function youtube(){
+Swal.fire({
+  title: '',
+  icon: '',
+  html:
+    '',
+  showCloseButton: false,
+  showCancelButton: true,
+  focusConfirm: false,
+  confirmButtonText:
+    '<a href="https://urlgeni.us/youtubemusic/sinlugar">YouTube Music</a>',
+  confirmButtonAriaLabel: 'Thumbs up, great!',
+  cancelButtonText:
+    '<a href="https://urlgeni.us/youtube/playlist/sinlugar">YouTube</a>',
+  cancelButtonAriaLabel: 'Thumbs down'
+})
+}

@@ -2,6 +2,17 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+}
+
+button{
+	background-color: #E41D22 !important;
+
+	border: 1px solid #fff !important;
+}
+
+button a{
+		color: #fff !important;
 }
 
 html{
